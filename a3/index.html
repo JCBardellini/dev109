@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>artifact 3 => Rhombus</title>
+</head>
+<body>
+    <h1 class="title">Create your Rhombus</h1>
+    <div class="rhombusContainer">
+        
+        <!-- input for user settings -->
+        <div class="catergories">
+            <label for="height">Height of your Rhombus</label>
+            <br>
+            <input type="number" name="height" id="height" min="1"  required>
+            <br>
+            <br>
+    
+            <label for="oddColor">Pick a color for the odd position</label>
+            <br>
+            <select name="oddColor" id="oddColor">
+                <option value="Color" disabled selected>Color</option>
+                <option value="Red">Red</option>
+                <option value="Black">Black</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Blue">Blue</option>
+            </select>
+            <br>
+            <br>
+    
+            <label for="evenColor">Pick a color for the even position</label>
+            <br>
+            <select name="evenColor" id="evenColor">
+                <option value="color" disabled selected>Color</option>
+                <option value="Orange">Orange</option>
+                <option value="Purple">Purple</option>
+                <option value="Green">Green</option>
+                <option value="Grey">Grey</option>
+            </select>
+            <br>
+            <br>
+    
+            <label for="symbol">Pick your Symbol</label>
+            <br>
+            <select name="symbol" id="symbol">
+                <option value="symbol" disabled selected>Symbol</option>
+                <option value="@">@</option>
+                <option value="#">#</option>
+                <option value="$">$</option>
+                <option value="*">*</option>
+            </select>
+            <br>
+            <br>
+            <button onclick="createRhombus()">Create Rhombus</button>
+        </div>
 
+        <!-- Displaying Rhombus -->
+        <div class="rhombus">
+            <div id="upperPart"></div>
+            <div id="bottomPart"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
