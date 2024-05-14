@@ -36,7 +36,7 @@ ul li {
 main {
   text-align: center;
   background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg");
-  height: 75vh;
+  min-height: 75vh;
 }
 .container {
   display: flex;
@@ -116,5 +116,18 @@ textarea {
 }
 .assignmentList {
   padding: 0 10px;
+}
+
+.validate {
+  display: flex;
+  justify-content: space-evenly;
+}
+.validatorImg {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.img {
+  width: 400px;
 }
 
