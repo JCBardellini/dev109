@@ -1,0 +1,44 @@
+body {
+  background: url("../images/travelworthy-backdrop.jpg");
+  background-size: cover;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  width: 230px;
+  height: 180px;
+  float: left;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
+}
+#info {
+  background-color: #1e1b1e;
+  color: #fff;
+  width: 200px;
+  padding: 0 15px;
+  text-align: center;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 15%;
+}
+h2 {
+  margin: 1.75em 0 0 0;
+  color: #adffda;
+  font-weight: normal;
+}
+#quay {
+  margin-top: 1em;
+  border-top: 1px solid #fff;
+  padding-top: 1em;
+}
+#park {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 1em;
+}
+#sunset {
+  margin-top: 1em;
+}
